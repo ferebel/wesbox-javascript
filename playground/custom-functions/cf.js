@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 
-let bill = 100;
+const bill = 100;
 const taxRate = 0.13;
 
 function calculateBill() {
@@ -11,4 +11,4 @@ function calculateBill() {
 }
 
 const myTotal = calculateBill();
-console.log(`Your Total is $${myTotal}`);
+// console.log(`Your Total is $${calculateBill()}`);
